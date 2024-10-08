@@ -10,5 +10,8 @@ public class CalcTest {
     void testAddition() {
         assertEquals(4, c.add(2,2));
     }
-
+    @Test
+    void testSubtraction() {
+        assertEquals(0, c.subtract(2, 2), "2 - 2 should be 0");
+    }
 }
